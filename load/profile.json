@@ -1,22 +1,29 @@
 {
   "city": {
-    "note": "Заполните исходными числами и результатами расчёта.",
-    "tripsPerDay": 0,
-    "tripStateReadsPerTrip": 0,
-    "historyViewsPerDay": 0,
-    "tripPeakFactor": 0,
-    "historyPeakFactor": 0
+    "note": "Исходные числа города и результаты расчёта, расчёт показан в design.md, раздел «Требования».",
+    "tripsPerDay": 200000,
+    "tripStateReadsPerTrip": 180,
+    "historyViewsPerDay": 60000,
+    "tripPeakFactor": 4,
+    "historyPeakFactor": 2,
+    "orderRateAvg": 2.31,
+    "orderRatePeak": 9.26,
+    "readRateAvg": 416.67,
+    "readRatePeak": 1666.67,
+    "historyRateAvg": 0.69,
+    "historyRatePeak": 1.39,
+    "tripsPerYear": 73000000
   },
   "stand": {
-    "note": "Объясните границу локального опыта в design.md.",
-    "orderRate": 0,
-    "readRate": 0,
-    "historyRate": 0,
+    "note": "Частоты локального стенда меньше городских: опыт проверяет причинную связь «индекс -> время истории» на ограниченной машине, граница опыта описана в design.md.",
+    "orderRate": 5,
+    "readRate": 20,
+    "historyRate": 5,
     "duration": "30s",
     "warmup": "10s"
   },
   "targets": {
-    "historyP95Ms": 0,
-    "errorRate": 0
+    "historyP95Ms": 50,
+    "errorRate": 0.001
   }
 }

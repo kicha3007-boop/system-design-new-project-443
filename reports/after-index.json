@@ -1,0 +1,162 @@
+{
+    "metrics": {
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 953,
+            "thresholds": {
+                "rate<=0.001": false
+            },
+            "value": 0
+        },
+        "http_req_duration": {
+            "med": 2.025362,
+            "max": 66.709626,
+            "p(90)": 7.238068400000006,
+            "p(95)": 10.342021399999995,
+            "avg": 3.583258657922346,
+            "min": 1.001447
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 3.583258657922346,
+            "min": 1.001447,
+            "med": 2.025362,
+            "max": 66.709626,
+            "p(90)": 7.238068400000006,
+            "p(95)": 10.342021399999995
+        },
+        "http_req_sending": {
+            "avg": 0.03391655613850992,
+            "min": 0.003901,
+            "med": 0.02303,
+            "max": 0.975487,
+            "p(90)": 0.05295560000000001,
+            "p(95)": 0.07557079999999988
+        },
+        "checks": {
+            "passes": 953,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_connecting": {
+            "p(90)": 0,
+            "p(95)": 0.14873059999999996,
+            "avg": 0.038428400839454376,
+            "min": 0,
+            "med": 0,
+            "max": 9.530323
+        },
+        "data_received": {
+            "count": 1048052,
+            "rate": 26197.137729989972
+        },
+        "http_req_blocked": {
+            "max": 9.624147,
+            "p(90)": 0.019781200000000006,
+            "p(95)": 0.22353339999999988,
+            "avg": 0.06026182161594971,
+            "min": 0.0016,
+            "med": 0.0059
+        },
+        "vus": {
+            "value": 1,
+            "min": 0,
+            "max": 1
+        },
+        "data_sent": {
+            "count": 103039,
+            "rate": 2575.5657873468463
+        },
+        "dropped_iterations": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "vus_max": {
+            "value": 65,
+            "min": 65,
+            "max": 65
+        },
+        "http_reqs": {
+            "rate": 23.821215222794713,
+            "count": 953
+        },
+        "http_req_receiving": {
+            "p(90)": 0.17200960000000007,
+            "p(95)": 0.21828059999999996,
+            "avg": 0.11836832423924479,
+            "min": 0.014101,
+            "med": 0.085613,
+            "max": 8.103754
+        },
+        "http_req_waiting": {
+            "max": 66.479205,
+            "p(90)": 7.0064302000000005,
+            "p(95)": 9.906900799999997,
+            "avg": 3.4309737775446005,
+            "min": 0.928043,
+            "med": 1.871566
+        },
+        "iteration_duration": {
+            "avg": 3.885722101783845,
+            "min": 1.105651,
+            "med": 2.272039,
+            "max": 67.341382,
+            "p(90)": 7.6167512,
+            "p(95)": 11.037386599999996
+        },
+        "http_req_duration{scenario:history}": {
+            "min": 1.123917,
+            "med": 2.1347674999999997,
+            "max": 16.266353,
+            "p(90)": 5.416140999999999,
+            "p(95)": 7.887288349999977,
+            "avg": 2.9619518200000003,
+            "thresholds": {
+                "p(95)<30000": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0
+        },
+        "iterations": {
+            "count": 953,
+            "rate": 23.821215222794713
+        }
+    },
+    "root_group": {
+        "groups": {},
+        "checks": {
+                "trip is read": {
+                    "passes": 652,
+                    "fails": 0,
+                    "name": "trip is read",
+                    "path": "::trip is read",
+                    "id": "3c78546a03bbe5d93a0fbadb0c66da8c"
+                },
+                "history is read": {
+                    "passes": 150,
+                    "fails": 0,
+                    "name": "history is read",
+                    "path": "::history is read",
+                    "id": "afc0859d70127eafe67916743fe80f10"
+                },
+                "trip is created": {
+                    "name": "trip is created",
+                    "path": "::trip is created",
+                    "id": "a3c85d90ff86f01a2dd9389d9acebf67",
+                    "passes": 151,
+                    "fails": 0
+                }
+            },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}
